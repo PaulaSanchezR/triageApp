@@ -1,0 +1,90 @@
+
+  <div class="col-md-12 "><h1>
+    
+  </h1></div>
+  <br><br><br>
+  <hr class="colorgraph">
+<div class="container">  
+<div class="row" style="margin-top:20px">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+     
+	  	<form role="form" action="/printer/edit" method="POST">
+    
+			<fieldset>
+				 <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_privilage">Name</label>
+                <input type="text" name="name" id="name" class="form-control input-lg" value="">
+            </div>
+          </div>
+      	 <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_activate">Last Name</label>
+                <input type="text" name="lastname" id="lastname" class="form-control input-lg" value="">
+
+              </div>
+          </div>
+           <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_activate">Age</label>
+                <input type="text" name="age" id="age" class="form-control input-lg" value="">
+
+              </div>
+          </div>
+           <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_activate">Phone</label>
+                <input type="text" name="phone" id="phone" class="form-control input-lg" value="">
+
+              </div>
+          </div>
+           <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_activate">Address</label>
+                <input type="text" name="address" id="address" class="form-control input-lg" value="">
+
+              </div>
+          </div>
+          <hr class="colorgraph">
+           <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_activate">Emergeny Name</label>
+                <input type="text" name="ename" id="ename" class="form-control input-lg" value="">
+
+              </div>
+          </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_activate">Emergeny Lastname</label>
+                <input type="text" name="elastname" id="elastname" class="form-control input-lg" value="">
+
+              </div>
+          </div>
+           <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_activate">Emergeny Phone</label>
+                <input type="text" name="ephone" id="ephone" class="form-control input-lg" value="">
+
+              </div>
+          </div>
+           <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_activate">Event</label>
+                <input type="text" name="event" id="event" class="form-control input-lg" value="">
+
+              </div>
+          </div>
+        
+        	<div class="col-md-12 ">
+               <input type="submit" class="btn btn-lg btn-success btn-block" value="NEW">
+            </div>
+				
+        {{#if message}}
+            <div class="error-message">{{ message }}</div>
+       {{/if}}
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+</div>
